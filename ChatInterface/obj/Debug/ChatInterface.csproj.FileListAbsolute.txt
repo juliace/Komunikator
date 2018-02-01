@@ -1,0 +1,4 @@
+C:\Users\julia\Documents\Visual Studio 2013\Projects\Klient\ChatInterface\bin\Debug\ChatInterface.dll
+C:\Users\julia\Documents\Visual Studio 2013\Projects\Klient\ChatInterface\bin\Debug\ChatInterface.pdb
+C:\Users\julia\Documents\Visual Studio 2013\Projects\Klient\ChatInterface\obj\Debug\ChatInterface.dll
+C:\Users\julia\Documents\Visual Studio 2013\Projects\Klient\ChatInterface\obj\Debug\ChatInterface.pdb

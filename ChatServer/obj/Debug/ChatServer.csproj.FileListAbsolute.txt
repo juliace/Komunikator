@@ -1,0 +1,8 @@
+C:\Users\julia\Documents\Visual Studio 2013\Projects\Klient\ChatServer\bin\Debug\ChatServer.exe.config
+C:\Users\julia\Documents\Visual Studio 2013\Projects\Klient\ChatServer\bin\Debug\ChatServer.exe
+C:\Users\julia\Documents\Visual Studio 2013\Projects\Klient\ChatServer\bin\Debug\ChatServer.pdb
+C:\Users\julia\Documents\Visual Studio 2013\Projects\Klient\ChatServer\bin\Debug\ChatInterface.dll
+C:\Users\julia\Documents\Visual Studio 2013\Projects\Klient\ChatServer\bin\Debug\ChatInterface.pdb
+C:\Users\julia\Documents\Visual Studio 2013\Projects\Klient\ChatServer\obj\Debug\ChatServer.csprojResolveAssemblyReference.cache
+C:\Users\julia\Documents\Visual Studio 2013\Projects\Klient\ChatServer\obj\Debug\ChatServer.exe
+C:\Users\julia\Documents\Visual Studio 2013\Projects\Klient\ChatServer\obj\Debug\ChatServer.pdb
