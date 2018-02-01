@@ -1,0 +1,1974 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="29e28cbd-25ff-4133-ba5d-8e18adef1a64"
+  name="Client"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="779a369e-0c29-48ce-8853-d16d0dd90da4"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DClient"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="dfa1e4b4-f3ec-4df6-bcc9-95a14dbdde5d">
+      <profileInstance
+        Id="b918c370-2731-494c-b18e-3f0323267004"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="c2947b27-cbb8-4383-9fed-eb81310f267c"
+        name="ClientCallback"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="80406002-e698-4ade-b064-f10dbabcdd8d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DClient Type%3DClientCallback"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="773ae1f1-3fb8-4244-a375-d39ba8f157a3"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="325865a0-f9fe-4a87-84db-6b8374890b6c">
+                <propertyInstance
+                  Id="abda409c-dc40-457d-90dd-5d112c692b04"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5d1bbfb0-ca64-4231-af0f-68b5952da171">
+                <propertyInstance
+                  Id="91bcecce-f55d-41c5-9757-f1e99c74cea8"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f9295b06-b5f6-45c4-8e86-87344e8def66">
+                <propertyInstance
+                  Id="9588d691-47fd-4019-b9f1-89e9729b644c"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8eb1d243-6c2c-4db4-bcba-43aba6b77a42">
+                <propertyInstance
+                  Id="f78f3cfc-5435-4f41-ba9d-ad979d49f418"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="727d2846-4d36-4de5-993f-b913955bb632">
+                <propertyInstance
+                  Id="9c92d7c8-8410-44d2-8d5f-ec701bd63bad"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="6176c172-c42d-4b29-967c-9895e40c75ec">
+            <interfaceMoniker
+              Id="130bb66a-b10d-4786-a6cf-d2565650951e"
+              LastKnownName="IClient"
+              LastKnownLocation="Package_1209.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="87a13191-0166-4086-a06b-03806b326160"
+            name="GetMessage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7c27977e-615b-4458-a1f8-5067fe1ef8b2"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DClient Type%3DClientCallback Member%3D(Name%3DGetMessage OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="953fa144-85c2-4e59-89ea-a316385c5d7e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="684fc639-5809-4ec4-978d-6a19fae0df9a">
+                    <propertyInstance
+                      Id="6e7b3703-8a28-4748-89f7-d17778777f18"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="158eca67-2c33-44cb-ab1a-08dbfb138985">
+                    <propertyInstance
+                      Id="198b68ee-430a-40cd-8cfc-5f282e84666c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59fdbfd3-c161-413d-be62-11d506576f72">
+                    <propertyInstance
+                      Id="575910bb-6f3c-4d8c-b485-08b74d7fcbb1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="587ab239-c0ac-4884-b946-9f4bbc827495">
+                    <propertyInstance
+                      Id="c6cc620f-536f-46d2-abaa-aaea5808258b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="927d192f-6d63-4a72-b121-3ff5491a9b20">
+                    <propertyInstance
+                      Id="0c8a92dd-fa5c-4430-8f49-b23aac2f27bc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72e12794-3a72-4064-9497-d6ba598f886f">
+                    <propertyInstance
+                      Id="f19a4c8c-c076-4122-8b1d-a4bd73c9e29a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1112d253-a5d4-46e1-beee-3aeb086b6d02"
+                  name="message"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4fd82872-af6b-4776-ba17-1f628a0787fa"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DClient Type%3DClientCallback Member%3D(Name%3DGetMessage OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dmessage"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0250cc85-5563-4a35-a61c-0d585dd5f78a"
+                  name="userName"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="51b8f250-1cd8-4272-b303-060b09759634"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DClient Type%3DClientCallback Member%3D(Name%3DGetMessage OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DuserName"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e6da2b57-5693-4d2d-9c12-669b48af28bd"
+            name="ClientCallback"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ab17e28c-a190-40da-8f0a-a4980bf58780"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DClient Type%3DClientCallback Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3cf901c0-5faf-4193-ab99-27ca76621583"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="839922ad-ea23-42a4-aa19-3f35edd2a179">
+                    <propertyInstance
+                      Id="163bf0c7-016b-4202-aa63-26395d52d4c6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b70aef4f-7deb-4509-9991-e625f3a0833f">
+                    <propertyInstance
+                      Id="55bf0081-86dd-4b53-8ac1-e312f5ae56e7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="87c75f7a-eddc-4398-a869-00e9ecf7f08a">
+                    <propertyInstance
+                      Id="d1d3f916-f282-4c9d-8bfd-7deadb6c1521"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2ca4a7a8-97a6-4a6a-866c-44f1efafb25b">
+                    <propertyInstance
+                      Id="ee762986-bf77-4651-a9e0-b9225e7204ac"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3534e2fa-81b1-44b8-85e1-915a53c11bab">
+                    <propertyInstance
+                      Id="612a7401-5502-45b6-9740-09e0401e7d36"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee671635-d313-41ce-b11b-0a49d025dc92">
+                    <propertyInstance
+                      Id="8724d659-665d-455e-b404-68af966df8c6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="d14491c3-7ef6-4ce9-b3f1-4e865b2ccafa"
+        LastKnownName="Properties"
+        LastKnownLocation="Package5_1210.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="372e33a7-e0a7-48fa-9428-481e8ca88cc3"
+        name="MainWindow"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="98db1ea6-d5e6-43a5-b150-aece3c43fd63"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DMainWindow"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ec3ff21d-1c61-488c-9bc9-14823ffce1a3"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="63fa9669-e80e-4120-ad92-703011bb9478">
+                <propertyInstance
+                  Id="0491f157-6c8e-4731-9629-415593a578b0"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="52fcd797-6210-41ab-88d6-d44dd249d36d">
+                <propertyInstance
+                  Id="5dce5212-bb11-468f-9641-3313af9c9ba6"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3bb1ca3c-7780-494b-94b2-cbc540e7f385">
+                <propertyInstance
+                  Id="e43b1132-66fb-4cdb-bb70-26a45c238e19"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="85aca39a-2349-4836-827f-551085b6906f">
+                <propertyInstance
+                  Id="f899982a-ba7b-43cb-bca4-f17e9b7d5e6a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4e2cf510-9216-42c3-98c3-30a1fef80906">
+                <propertyInstance
+                  Id="f83401f7-48e8-47cd-bcca-21e0040ba30c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="ff2d5903-9633-4d3c-8e28-f5e175dd68c2">
+            <interfaceMoniker
+              Id="f8b30c04-3889-4d4b-a4e0-f228e51129a6"
+              LastKnownName="IComponentConnector"
+              LastKnownLocation="Package2_1215.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization
+            Id="6852af97-17f2-4953-b880-ebf60b55449a"
+            isSubstitutable="false">
+            <classMoniker
+              Id="5e604e33-bb54-429b-871e-23191e92e674"
+              LastKnownName="Window"
+              LastKnownLocation="Package1_1214.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="f2a8c008-185b-442d-a168-c75b076198c2"
+            isDerived="false"
+            sourceEndRoleName="MainWindow"
+            targetEndRoleName="IChatService"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="303154e5-8981-4e7a-b1d2-374eb43071ac"
+              LastKnownName="IChatService"
+              LastKnownLocation="Package_1209.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="20416902-5526-4695-8a15-a753bcc124c7"
+                  name="MainWindow"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Composite"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3921eb05-9fef-4289-a6e8-57b3415cd1a3"
+                  name="IChatService"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="true" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="6dd900c2-ea88-437e-bb40-3b75f0742931"
+            name="MessageTextBox"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="14f41f44-f62b-4ea1-b759-6abddbee3e16"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DMainWindow Member%3DMessageTextBox"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="25ec086a-f538-4212-b298-d147d8012dbd"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f4158df8-7472-4358-a801-074c852479e6">
+                    <propertyInstance
+                      Id="4182b84c-0e43-4ada-9266-b9518f030f27"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0cfd381-9db8-43ae-92d4-8637a72477ee">
+                    <propertyInstance
+                      Id="a2eea6ab-dd7a-4250-9909-6d147935ebce"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8b24afd8-eea1-4610-ab69-a2fa292627e5">
+                    <propertyInstance
+                      Id="da37c1c3-783c-40ec-b94b-5c73fd0b798a"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ce693cc-1d52-40a1-9b42-0e3ec83353e2">
+                    <propertyInstance
+                      Id="38b3cedf-5c00-4674-84dc-3ab0a89d64ca"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e8135859-e68c-4617-9f11-45bf86c527fd">
+                    <propertyInstance
+                      Id="bb6abb43-0082-4fb5-96aa-98fabadf6b56"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="7e6d9725-181f-44c2-b43f-a90f4a8b568a"
+                LastKnownName="TextBox"
+                LastKnownLocation="Package_1215.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="08b0ba8d-179b-448d-9b5d-cd0c7d2a2331"
+            name="_channelFactory"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="6902e93c-7e68-4987-996a-8855f431ecab"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DMainWindow Member%3D_channelFactory"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3363c76f-2fc9-4280-915c-73f9ed7ed6b5"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db678513-c079-460f-8149-153f523a638f">
+                    <propertyInstance
+                      Id="41356e8f-895e-4818-997c-fa31b7832038"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="33a2558b-be7b-4b77-8412-0f2feebd3a16">
+                    <propertyInstance
+                      Id="c7ee45a2-9faf-4032-9b01-1adda1130c5b"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ffcabcac-c69b-44f5-8246-15e1c5d6adb0">
+                    <propertyInstance
+                      Id="467554e5-ee3c-4ab0-a92c-953f472ff45a"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b76e3510-383d-4e4d-9a76-baa6f51b196e">
+                    <propertyInstance
+                      Id="86294624-5b39-4d26-b349-295623ca2b87"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="96e5be5c-dac5-4719-90cf-11f84e31d3cd">
+                    <propertyInstance
+                      Id="464a7a50-1da8-4afe-b2a7-5c4d5228ff2e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="b8205eee-0212-4e28-9d75-b1c7696c204c"
+                LastKnownName="DuplexChannelFactory&lt;IChatService‎&gt;"
+                LastKnownLocation="Package1_1215.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d841490d-79e9-41b8-a699-02e9b8311e87"
+            name="_contentLoaded"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="bce24ff4-e19f-4d35-83aa-65a6e81579a8"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DMainWindow Member%3D_contentLoaded"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e8cf5767-6262-4773-b8db-eb0e6259790d"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c45af01-2d8d-4225-a5b4-f2da754211ac">
+                    <propertyInstance
+                      Id="1ef0b87c-3320-4e31-8497-7e18833dd459"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d756b3d4-5dd2-42f9-a5cb-a98f48adcbee">
+                    <propertyInstance
+                      Id="3d755601-1b6a-4126-8523-99fad3e7d133"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="554daa3d-b1ac-47f2-9894-bc6ca5e3e2b6">
+                    <propertyInstance
+                      Id="c4791f4f-e6e9-4216-b45f-525ffc8dd240"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eba942f9-9555-4d54-9465-9a137670a7f6">
+                    <propertyInstance
+                      Id="b563a211-6b07-4c38-b8eb-1145da4bedf5"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2ed84dbc-39ac-4b0b-8274-23ab08acda5e">
+                    <propertyInstance
+                      Id="bb753365-2d3f-4d98-a1ea-89f9edf2fdb2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                LastKnownName="Boolean"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="dd0d7587-8425-44aa-a925-0454ea79143c"
+            name="connectButton"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b088b264-17b3-4c7c-a49b-6afeb8403f57"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DMainWindow Member%3DconnectButton"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="baba8fda-e542-473e-a312-28e4f77d29f9"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00176bf6-efee-4b31-b2b3-f4afef9c6103">
+                    <propertyInstance
+                      Id="e7cb2c1b-cbff-414e-8e7d-f6f3193fdd39"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec1c7bea-976e-4987-afc7-9228c6ace7b1">
+                    <propertyInstance
+                      Id="3ddb47cb-db11-4eda-98b3-73a3233dbcc3"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="070704f7-f6fc-4a84-84ac-73d22a3e30e9">
+                    <propertyInstance
+                      Id="186be5a2-bc5a-45f0-ab12-9b6e3459775c"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c490ee07-4ceb-4c28-ac3d-d049b2d0a657">
+                    <propertyInstance
+                      Id="33317413-f6f3-4b1d-b0c6-973f8935f222"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="959736d6-bcd3-48ae-b214-b2b7e931bf7c">
+                    <propertyInstance
+                      Id="16b7f921-4241-4e2e-a53b-2ba8973a51fa"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="73f9dac5-36aa-4f72-9d3b-bfaec0ebf14f"
+                LastKnownName="Button"
+                LastKnownLocation="Package_1215.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="94fc1682-659e-4f99-b627-f4d9291281ee"
+            name="displayTextBox"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="26327af9-d12d-4b23-a7fe-19a9a08a6c62"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DMainWindow Member%3DdisplayTextBox"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d8cfe481-5975-4c04-a372-f699df904f9f"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a43c8f0d-9a10-4ffe-b548-109c1aec2f2a">
+                    <propertyInstance
+                      Id="70df3cb8-4f1c-41b0-ba7e-5aa6f6f9f71b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="97b49bc0-2bc9-40ca-83c3-c56a7f4c8735">
+                    <propertyInstance
+                      Id="fc53f4f8-5eaf-471f-9cae-61de88f15d75"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="86e0e31e-1c6d-4f8b-83c3-df3fd2395298">
+                    <propertyInstance
+                      Id="aa13148e-9801-4007-9bb4-808191a6e052"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6065e4c4-4b73-408f-ba8f-5baaae4effc7">
+                    <propertyInstance
+                      Id="882d972e-1b4e-47e7-b2bb-703b458200ea"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f7dbdd21-1765-43a2-b0c2-4b959f18dbec">
+                    <propertyInstance
+                      Id="4516eacf-d906-4d4d-a541-d78f7330787a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="7e6d9725-181f-44c2-b43f-a90f4a8b568a"
+                LastKnownName="TextBox"
+                LastKnownLocation="Package_1215.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="4cb5851b-4a97-4ace-b90f-b8fd77e220cd"
+            name="sendButton"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="136d2d0f-053b-4602-9cd5-f601cf60b286"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DMainWindow Member%3DsendButton"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="59689637-c143-4727-a7fa-367287007b90"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="93431c77-e646-4510-bd25-52bcba73e497">
+                    <propertyInstance
+                      Id="ac4bbb83-6daa-46b5-9ede-abe3d2d22863"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="81b3baf4-77b8-4aaf-a495-97fed6aafd95">
+                    <propertyInstance
+                      Id="ff70e079-7c41-4449-ae06-c2c8d9dc2ce5"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13b1d95b-ddcd-4c85-bf05-bbbf20f2b622">
+                    <propertyInstance
+                      Id="4b7ae959-8522-424f-bc8f-3b45c3654401"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b8ed919-ef9f-4d62-9f19-47ea2963fc3c">
+                    <propertyInstance
+                      Id="485c7853-93b6-4bf4-a71a-5d29583bc1ef"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65ed485a-cb47-4da9-aea6-4a2415df4281">
+                    <propertyInstance
+                      Id="5158881e-4de7-4828-892b-d327fa83b5f2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="73f9dac5-36aa-4f72-9d3b-bfaec0ebf14f"
+                LastKnownName="Button"
+                LastKnownLocation="Package_1215.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="ac2413ce-c208-496f-a5a9-47f588ce2e4a"
+            name="server"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d1a5e7a8-c8c2-49e3-8b1e-d4067f45c46d"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DMainWindow Member%3Dserver"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="41421486-b860-4326-b229-7d032499e029"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="582bd147-bb69-4153-ada7-f53223ce05ea">
+                    <propertyInstance
+                      Id="640f9cd6-59e6-4268-8a58-922e57d08119"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6e436f22-1fc8-4a88-abb5-57ff9364d4c5">
+                    <propertyInstance
+                      Id="e4246a32-eb0e-4f45-83a2-379353cc49ee"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02f054f1-3045-4088-96f0-9c9f5b382ff5">
+                    <propertyInstance
+                      Id="83366166-7597-4604-b12a-892ed012af18"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a52ab2a-ae77-46c5-8bdc-6354c433017a">
+                    <propertyInstance
+                      Id="4bcb585b-79f2-4c85-9553-80569a00e91c"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7441770-c1b7-41ab-bc85-67ffc7f2238e">
+                    <propertyInstance
+                      Id="421c880e-1538-4dcc-9c18-6566dd7603a7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="303154e5-8981-4e7a-b1d2-374eb43071ac"
+                LastKnownName="IChatService"
+                LastKnownLocation="Package_1209.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="77da92b7-5c25-4da0-9c65-98a93ed8bbb1"
+            name="userNameTextBox"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f5af3641-8554-40d2-b03a-daa3d2e9ca7a"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DMainWindow Member%3DuserNameTextBox"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ebf00110-7e44-40cc-9758-ec3baa5994fc"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc962ec5-4fe6-45cf-87a5-139768444fb6">
+                    <propertyInstance
+                      Id="3cdb4e8a-4966-48f7-bae3-d68188a0b624"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e608790-ced0-4c8f-9556-9dc7bdc012d7">
+                    <propertyInstance
+                      Id="33a3f810-6bdc-46a3-98c8-a4d24e7241e6"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d9e62ca-d5f4-442c-b821-f9c254a95ab5">
+                    <propertyInstance
+                      Id="7e429f1c-9392-4089-84c6-3f23ff1f2791"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9511fe64-3d2d-440a-b6ea-d67a9aa14b6e">
+                    <propertyInstance
+                      Id="67bddc87-6570-42c1-8ab0-b755763ff28d"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e02e1b31-5808-4a67-a964-5c8d25bc7ddb">
+                    <propertyInstance
+                      Id="ba329d8c-2fb6-469e-8574-83b1da9b4f9f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="7e6d9725-181f-44c2-b43f-a90f4a8b568a"
+                LastKnownName="TextBox"
+                LastKnownLocation="Package_1215.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="bd75706a-3555-4b70-9b5a-1a306fa80388"
+            name="Button_Click"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e854a543-66d9-4f56-8bf3-63b379d36cd7"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DMainWindow Member%3D(Name%3DButton_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FPresentationCore.dll&quot; Namespace%3DSystem.Windows Type%3DRoutedEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="695f85d3-1f06-448e-b183-ed2552bf91d8"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b239f2b-4566-4cb0-b20e-adf5b2452860">
+                    <propertyInstance
+                      Id="ea522269-23ef-45b6-b867-b79d94a60611"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe37b313-3688-4a83-a8e5-6292238fcd96">
+                    <propertyInstance
+                      Id="fdde8326-9556-4ebf-8d11-d74acdbd4333"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bca9f998-0f12-4e5b-9527-001d9b7ff633">
+                    <propertyInstance
+                      Id="9f5fb8ae-117a-4b77-8677-2f455538e9ce"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d7356497-083f-4305-acf5-97dd5096a3f9">
+                    <propertyInstance
+                      Id="7df3b6a0-1f6c-4785-98c8-363e5cddef4b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="548f0495-0ace-406f-acca-5b91cb7ec320">
+                    <propertyInstance
+                      Id="7b43b4e2-4da0-4e54-8c31-c214cc2960fd"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec48c0dd-b219-447e-a876-f676008dd6eb">
+                    <propertyInstance
+                      Id="9c9fcc42-4588-496f-9f34-2fe04666f535"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="863f7dc7-cb3c-4664-a14e-c14e801fbc2a"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8be03146-6231-4025-a09d-b9acc4f01f69"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DMainWindow Member%3D(Name%3DButton_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FPresentationCore.dll&quot; Namespace%3DSystem.Windows Type%3DRoutedEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="7907ea98-7c60-422c-b87e-088bb53b5531"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package1_1210.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f78921de-81c2-4d14-bada-b4b0500a9cb6"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="fee384ed-7e85-48f7-9f1f-c84978589b5a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DMainWindow Member%3D(Name%3DButton_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FPresentationCore.dll&quot; Namespace%3DSystem.Windows Type%3DRoutedEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e8cfb4e8-d1fa-4e49-9a36-8bc61a98f48c"
+                      LastKnownName="RoutedEventArgs"
+                      LastKnownLocation="Package1_1214.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="2b355abe-9443-44c6-8848-844e61d6f92e"
+            name="Button_Click_1"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="308470f9-4c97-4434-8524-bc615b2138d5"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DMainWindow Member%3D(Name%3DButton_Click_1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FPresentationCore.dll&quot; Namespace%3DSystem.Windows Type%3DRoutedEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8ae9aa77-5b79-41a2-8e97-b289f3587af3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5fd0c9c6-2740-47f0-b268-5fafd76f763c">
+                    <propertyInstance
+                      Id="fa2c8747-8d0f-4f74-acb1-56a5eb64e17b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec541b81-af63-41f0-a32c-bbcfdf6a8f7a">
+                    <propertyInstance
+                      Id="8b462ba8-da8e-4a28-a872-b617e9dc00c6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a8b68f76-0d8e-49d4-bfab-ae227e2f47bf">
+                    <propertyInstance
+                      Id="53b8a00b-ef1a-449a-a7ec-353afb2dd256"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="37e7c7b5-cf3e-4fa4-8ea1-842074ee3d86">
+                    <propertyInstance
+                      Id="5116a4ae-5c97-4a23-b0f0-6e0a2ab22373"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a12bff82-a230-4f1f-b410-e070a86ed9ed">
+                    <propertyInstance
+                      Id="01a55246-1fd8-4043-ae51-417d2f56fc7c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2bbb9d35-702b-424f-8e38-6c422cb703f2">
+                    <propertyInstance
+                      Id="134a1139-143c-4727-8330-b0d5ba080ce6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="dad93609-b5b7-4807-96c0-0c5fb0766bc7"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="febbf509-86dc-4722-a550-333319f69a36"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DMainWindow Member%3D(Name%3DButton_Click_1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FPresentationCore.dll&quot; Namespace%3DSystem.Windows Type%3DRoutedEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="7907ea98-7c60-422c-b87e-088bb53b5531"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package1_1210.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8c845500-8377-4a31-9914-e91902c98619"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="30d0b0a6-cd0d-446b-acb1-dcab15e17ff6"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DMainWindow Member%3D(Name%3DButton_Click_1 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FPresentationCore.dll&quot; Namespace%3DSystem.Windows Type%3DRoutedEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e8cfb4e8-d1fa-4e49-9a36-8bc61a98f48c"
+                      LastKnownName="RoutedEventArgs"
+                      LastKnownLocation="Package1_1214.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1bf76ab6-4b05-4859-a06f-688296609633"
+            name="System‎.Windows‎.Markup‎.IComponentConnector‎.Connect"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ed7886ec-345b-4bea-8a4c-8a00a58cbcf6"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DMainWindow Member%3D(Name%3DSystem.Windows.Markup.IComponentConnector.Connect OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="31338a40-142a-4815-8554-b8e4a8d41d15"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="69973594-a6d3-46a0-8dfb-75ffb5f26dd9">
+                    <propertyInstance
+                      Id="0daa46b0-b8c4-460c-af56-e21558b31f12"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8cdc85ba-7074-46f2-b0c9-0ea3265bf455">
+                    <propertyInstance
+                      Id="76e3ee27-a76e-47c6-9c94-afb28df5b0ca"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8ae2b2b6-ca1c-465f-8cb1-a85fb803ca84">
+                    <propertyInstance
+                      Id="a9d0aea9-85e2-4e48-a8b4-affbd1705341"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a964c1cd-f651-4b89-8aea-ec2c46c262f0">
+                    <propertyInstance
+                      Id="79fa3c78-f8ac-44f1-bb13-a669d8604bc6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="981d6eb0-9524-4957-bfab-5dced5ccc8dd">
+                    <propertyInstance
+                      Id="067184d5-f51c-4e58-8acd-0b7070bcf856"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="20d80fe4-cde3-4f7b-b4b8-99b45f334ece">
+                    <propertyInstance
+                      Id="6a5857a3-0fed-445c-ade9-2bc986019c7a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="dc654238-383c-4a25-a1d5-8479f321d0c1"
+                  name="connectionId"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="67f0988f-9653-469d-9764-07c8bde68001"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DMainWindow Member%3D(Name%3DSystem.Windows.Markup.IComponentConnector.Connect OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]) ParameterIdentifier%3DconnectionId"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5c5a9384-e65d-4ebe-9ea3-c038fbd0c2bc"
+                  name="target"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0b2472b6-7360-43a2-b750-d8c4b491e201"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DMainWindow Member%3D(Name%3DSystem.Windows.Markup.IComponentConnector.Connect OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]) ParameterIdentifier%3Dtarget"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="7907ea98-7c60-422c-b87e-088bb53b5531"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package1_1210.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9f15da9e-b264-4ba3-9230-74d4382a9b3e"
+            name="TakeMessage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="97c30b7e-7e2e-4bd5-9b7d-815ae2d36d91"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DMainWindow Member%3D(Name%3DTakeMessage OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c2bb7723-cb7b-42e1-9f33-a2074f589646"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="feb1d7e8-aa83-4fa2-9128-d1ecc7286ad5">
+                    <propertyInstance
+                      Id="71c4e291-8810-4b7c-af17-4e142629abe6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="82ef138a-38ad-4616-a2b5-7a1d5e4bfc7a">
+                    <propertyInstance
+                      Id="d0aa0408-0fbb-424c-ae95-c61f00935766"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa3e93f6-616b-48ae-8192-376901011214">
+                    <propertyInstance
+                      Id="3de7024f-51b0-4b50-92f9-0e839919e41b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fec08349-6f59-4528-80c4-670e9eb2b2e2">
+                    <propertyInstance
+                      Id="5e32e8df-f3e9-4ea6-a885-93451d660958"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="704e2cb3-07f5-4cd9-9039-b8c8968836ac">
+                    <propertyInstance
+                      Id="c2b873b4-6c1e-4a13-a076-a2384297107b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3b4c120-065d-4617-bd2f-5dfc66d0d1e0">
+                    <propertyInstance
+                      Id="0567da30-293d-4810-81be-d044a07b8eac"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2a5a606a-de56-4a6b-a40b-f56a2d03bd71"
+                  name="message"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a226351d-a971-4e3c-ab8b-cf7ac06d01b4"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DMainWindow Member%3D(Name%3DTakeMessage OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dmessage"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="00df7512-492a-410b-a347-a96d9a63fb68"
+                  name="userName"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4a650b9b-4299-4ce1-93fe-06fff78016f8"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DMainWindow Member%3D(Name%3DTakeMessage OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DuserName"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6ba474d7-596d-47de-9c2f-b16dddca1f87"
+            name="TextBox_TextChanged"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="63c2ae4f-6523-4081-b242-17ea5fd72521"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DMainWindow Member%3D(Name%3DTextBox_TextChanged OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FPresentationFramework.dll&quot; Namespace%3DSystem.Windows.Controls Type%3DTextChangedEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cd91db82-acee-4e17-8b48-e8a8b9157fe9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="36be4475-3f1c-40c2-a0e5-a2109f675279">
+                    <propertyInstance
+                      Id="a90e236e-8877-48a8-85a3-50b477ce241f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b1ff3a7-4b2d-4925-af50-fe40f318c065">
+                    <propertyInstance
+                      Id="0883d012-319d-43d0-a0a6-d8ea73391e64"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cd46f38e-fe22-41f0-a583-bea14d10901c">
+                    <propertyInstance
+                      Id="14315695-0e4a-4b0d-9509-a76d10df9744"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="07ef3ad5-1a8c-4694-ad7d-560bab54ff4c">
+                    <propertyInstance
+                      Id="48a18223-201b-40c4-93c7-432d74514799"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a8b6d6eb-4e20-4ba3-849d-47ff6f79570a">
+                    <propertyInstance
+                      Id="81b05f92-d9f1-49a6-8e26-f7b28a971e49"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c341fb7d-0015-4c7e-9405-4cf0cac3dbdb">
+                    <propertyInstance
+                      Id="a6eb0acc-357e-4ba8-bc67-b23535663678"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0b833326-9d8f-4603-98b4-3286d4664efd"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5caaf1a5-58df-4718-bc06-f042b379e2f7"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DMainWindow Member%3D(Name%3DTextBox_TextChanged OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FPresentationFramework.dll&quot; Namespace%3DSystem.Windows.Controls Type%3DTextChangedEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="7907ea98-7c60-422c-b87e-088bb53b5531"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package1_1210.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="cda88418-4fe8-409d-ac25-7903cfc4cf51"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="52c9e7f3-9a6f-4db0-87e0-f38e081b88ca"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DMainWindow Member%3D(Name%3DTextBox_TextChanged OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FPresentationFramework.dll&quot; Namespace%3DSystem.Windows.Controls Type%3DTextChangedEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="7f496785-be4a-48d3-a600-67cbd32bfef8"
+                      LastKnownName="TextChangedEventArgs"
+                      LastKnownLocation="Package_1215.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="2d8c0c33-621c-437b-8fdb-7768173c0d4b"
+            name="InitializeComponent"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6e57aa6a-9dc4-453f-a88d-034b6feb6a4f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DMainWindow Member%3DInitializeComponent"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="73fe42c4-c673-40a4-8e33-7619ca471970"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b3d85276-61a5-403e-a615-f4fb9eba2561">
+                    <propertyInstance
+                      Id="e1c0163d-e4ff-404b-a28a-22a4966998a9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48a8e23c-8def-4f00-ba99-46ce9290d9fa">
+                    <propertyInstance
+                      Id="d2365e78-a5e0-4e0e-928e-3f65357bf5e4"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="320d5df9-1009-4fad-8e2d-0b5502b50c95">
+                    <propertyInstance
+                      Id="78657e85-2624-4d3c-8157-e02a61094d26"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d71cae3-c99e-4cc3-acc3-37ec6e62f710">
+                    <propertyInstance
+                      Id="63d3771f-b8e3-475d-8499-8e1bd120b48e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="58411ea5-53c8-4191-948a-a14f21c0812f">
+                    <propertyInstance
+                      Id="91a672fe-ede5-4b0a-88d3-97eb8c314967"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6b4f2b9-228d-4725-bd62-256cd295cb76">
+                    <propertyInstance
+                      Id="85bac925-4a79-4775-a428-bdc20684ce9c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="d771962d-9231-4904-9e0a-21561375c08e"
+            name="MainWindow"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1f8ae971-b999-478a-b659-e180622acfd0"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DMainWindow Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5ffad2ae-799e-4722-888f-d36a275c742e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d470ea0-a625-4567-97ca-aeef444cb766">
+                    <propertyInstance
+                      Id="9b9af847-12c9-4c33-8b76-6ca7178f5149"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac6837b0-32f6-43c3-bffa-29a9f77cc5f8">
+                    <propertyInstance
+                      Id="2207a92b-a1d8-410e-8b1d-34a226703bfc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5150dda2-1f5d-44a6-8cf6-71e3b1b689b9">
+                    <propertyInstance
+                      Id="2f667a69-96ce-43fe-acf4-3153b8aaf591"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9fb9c58-3a3b-4f22-8171-0e69835aa914">
+                    <propertyInstance
+                      Id="5c2f893e-4011-4080-83fc-331ebf171193"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c1bc6d5-45c8-488e-8467-54cc36b026ce">
+                    <propertyInstance
+                      Id="659bffbf-5e1c-42ed-a355-4e1f2ab83f71"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eda28178-c5e6-43a4-8114-5eff4cc0f927">
+                    <propertyInstance
+                      Id="848f3b38-3807-4625-9790-37879782f00b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d06fb256-10b0-4930-a252-4b809a74bef4"
+        name="Connection"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="7430f594-cc86-4fa6-80ec-fd6a476804d7"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DConnection"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3dc6ef50-ac76-4c48-a135-c11020252bba"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="66426904-7fd3-4f37-9052-4b0578c3b048">
+                <propertyInstance
+                  Id="2b26d0a2-0066-453c-aa12-efef42cdc25d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="79e4c586-0be1-47f7-a9af-1ccfaf6b3ac5">
+                <propertyInstance
+                  Id="73355008-9078-40e8-8619-1bf001ce3b90"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="910bbeb3-94db-4bc2-b5c5-ed441a6b42fb">
+                <propertyInstance
+                  Id="3f30d9be-1182-4386-9b04-86cd14dbf385"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e93f4015-cede-44d3-816e-42bec7b5f3c4">
+                <propertyInstance
+                  Id="da467fc9-2cf4-4788-bb5d-934330626d69"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="786c2561-91a2-41e9-8f18-98b22866f872">
+                <propertyInstance
+                  Id="b4d41143-460a-4665-aae4-154a6f22bbca"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="37b590d3-5d2b-483c-ac69-6b144e1a5210"
+            name="Connection"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4f042fa6-1fbf-40a2-921e-4a693d1056b6"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DConnection Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7179207c-c337-4733-b80e-9c7cc7b589ba"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0b81998-99ad-41ee-a4c5-cb835dc78cfc">
+                    <propertyInstance
+                      Id="9c347925-abcc-4c37-af6f-e7790ff1737a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="86803a39-d558-4f5a-90a7-ea5aeb8d29ea">
+                    <propertyInstance
+                      Id="16c5ebe9-2d79-4d46-86f7-6c1a46b8b5a0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2dfebdaa-47c1-4921-b7ca-e3b718cb9baf">
+                    <propertyInstance
+                      Id="3ca3635c-aaed-4588-b2ac-1549010dfbe3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae0316f5-15c9-49ac-b2ab-fd32aee53f03">
+                    <propertyInstance
+                      Id="48f86434-252d-45f3-a4c2-0cc6bc600cb6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dd58b77d-aa20-4a2b-bf29-028d8e4b5547">
+                    <propertyInstance
+                      Id="e6de6a49-117c-44c0-a9fa-132ce90c7765"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ef04348-2f41-4ce6-9ed4-511b25a6f78b">
+                    <propertyInstance
+                      Id="4aa59aff-1185-42e9-a059-b6e4a162af19"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ceac121c-b933-4bde-bb4a-adca06ef6a2c"
+        name="App"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="704e8892-34e0-416d-a844-d48cb628851b"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DApp"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a3cc2a75-248a-410c-86c7-14ae6ac5b722"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5633c102-8c37-423e-aff5-0572d6f11ea7">
+                <propertyInstance
+                  Id="d91a9ef3-0e79-42ef-9a46-ec119b9ade3b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="364965e9-ad13-4fd4-b727-6d5a89f20b0a">
+                <propertyInstance
+                  Id="6c1dc61c-a240-4743-b6f4-956d9e5c84a1"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fc118e72-ba5e-462d-80f1-c013b4a7eca6">
+                <propertyInstance
+                  Id="0d32652e-a57e-4e26-8bac-6d5a9421f3a6"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2eb7bbb2-4544-415a-a668-69602be19a7b">
+                <propertyInstance
+                  Id="a86d7e1e-86aa-49ac-be25-6bfb1e46b33c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="15c64bb1-7286-4df4-8383-46657585149b">
+                <propertyInstance
+                  Id="3bfae722-5a62-4fd1-8321-51a04953dc16"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="5f18833f-e5ab-4723-b884-6473987f1dbc"
+            isSubstitutable="false">
+            <classMoniker
+              Id="1d75ecb3-4faa-419a-924d-99acf6660bea"
+              LastKnownName="Application"
+              LastKnownLocation="Package1_1214.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="26c4fa6b-c94a-4424-91bb-230975011a1e"
+            name="InitializeComponent"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9c81c925-cda7-44c0-bd70-a0db8147f630"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DApp Member%3DInitializeComponent"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e2b12232-73e3-4b67-ad0d-acbc304362d7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="de8124b4-956e-4b3e-ae9d-4afc1f63d093">
+                    <propertyInstance
+                      Id="3aa2b0af-bb67-4490-87a0-11a7349dc34a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00b1aa30-4192-4e6d-9ea8-68156f8686f6">
+                    <propertyInstance
+                      Id="59a099b6-8ea7-47a7-be83-cc8c0e25a628"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="07b947d3-14db-4066-b963-1bdb69464bad">
+                    <propertyInstance
+                      Id="c0dca718-48be-465f-8e59-f783fda080e8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6dff3ede-dae2-4093-8f2b-1a55baeb565a">
+                    <propertyInstance
+                      Id="892922dc-f65b-4deb-8c27-128009f3b95e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66265393-f1aa-4f9c-85fe-cdc79df031fe">
+                    <propertyInstance
+                      Id="4f7cadad-2eb4-40b1-8d70-6037b1541e18"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="340d5130-61cb-44de-a5f5-0ec36cb02cbf">
+                    <propertyInstance
+                      Id="5649d3a8-b0da-4571-8242-93d355c1d339"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="b21db282-11a8-4785-93eb-43aaa13153a5"
+            name="Main"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="27605b48-0088-4198-8fa4-1f2ca14e6aa3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DApp Member%3DMain"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="414b25b9-0215-42b2-9846-e8dd734b6f4f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="420d95ff-7731-4a8d-8fd0-7f085f33596d">
+                    <propertyInstance
+                      Id="d7be4301-9df6-4016-badf-d969dec87fbe"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e78c0d44-c132-4c74-9148-4ae7bb3f88d0">
+                    <propertyInstance
+                      Id="95182ae7-6742-4c19-b1de-3cece08c4888"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4fe39405-a437-4f5a-9dd3-eaa95e2f3103">
+                    <propertyInstance
+                      Id="eba5cd8e-ddce-4f2a-bf7a-b701d4a7f93b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="797a5199-2cc1-4d41-8761-994b992375b9">
+                    <propertyInstance
+                      Id="d3839c32-35b7-4d34-83c0-9add523d5f21"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5a52007-caaa-45ea-8f7e-bfbb25d142ea">
+                    <propertyInstance
+                      Id="117cd1d8-8ea0-4012-937b-d87cadb1e3a7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38cbaf4f-4d88-4ba2-9861-dbfe4270b73b">
+                    <propertyInstance
+                      Id="bf59d197-a145-4778-a554-ff951c678c0f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="2b2333c9-8397-4c29-a39d-506e0ad22af0"
+            name="App"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3dd043cb-4792-4966-9981-cf4ccf548721"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FWpfApplication1%2Fbin%2FDebug%2FClient.exe&quot; Namespace%3DWpfApplication1 Type%3DApp Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="eea6451d-bfb8-4122-8627-afb27b72181a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d5b0961-ed02-4c2f-b411-116f3fc1755b">
+                    <propertyInstance
+                      Id="e0356fc4-e616-44c6-9633-1d359293b190"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a26902f-1da8-41ba-90ce-0fea63e47781">
+                    <propertyInstance
+                      Id="0df4f64b-6578-4dc2-9633-eadec6dea7e5"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4371fb09-2282-498d-af41-985216e7c338">
+                    <propertyInstance
+                      Id="ad51855a-5a72-4261-9f32-40f7cf3bf6b2"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d0a4e6d-4fd9-4153-b10f-80047a574e87">
+                    <propertyInstance
+                      Id="286e60ae-2935-41e6-8651-58e549fd44af"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="921017e9-a10e-46ac-838c-fb2c9a3706f9">
+                    <propertyInstance
+                      Id="66f01cee-f997-4220-8fd7-484d20198a96"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3bc617f5-2cd8-468f-9fca-2397fdefab23">
+                    <propertyInstance
+                      Id="435d8ef7-12ce-4bbb-8d75-dc5aab9b6d5e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

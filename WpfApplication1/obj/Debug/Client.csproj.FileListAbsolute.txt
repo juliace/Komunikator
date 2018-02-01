@@ -1,0 +1,15 @@
+C:\Users\julia\Documents\Visual Studio 2013\Projects\Klient\WpfApplication1\bin\Debug\Client.exe.config
+C:\Users\julia\Documents\Visual Studio 2013\Projects\Klient\WpfApplication1\bin\Debug\Client.exe
+C:\Users\julia\Documents\Visual Studio 2013\Projects\Klient\WpfApplication1\bin\Debug\Client.pdb
+C:\Users\julia\Documents\Visual Studio 2013\Projects\Klient\WpfApplication1\bin\Debug\ChatInterface.dll
+C:\Users\julia\Documents\Visual Studio 2013\Projects\Klient\WpfApplication1\bin\Debug\ChatInterface.pdb
+C:\Users\julia\Documents\Visual Studio 2013\Projects\Klient\WpfApplication1\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\julia\Documents\Visual Studio 2013\Projects\Klient\WpfApplication1\obj\Debug\MainWindow.baml
+C:\Users\julia\Documents\Visual Studio 2013\Projects\Klient\WpfApplication1\obj\Debug\MainWindow.g.cs
+C:\Users\julia\Documents\Visual Studio 2013\Projects\Klient\WpfApplication1\obj\Debug\App.g.cs
+C:\Users\julia\Documents\Visual Studio 2013\Projects\Klient\WpfApplication1\obj\Debug\Client_MarkupCompile.cache
+C:\Users\julia\Documents\Visual Studio 2013\Projects\Klient\WpfApplication1\obj\Debug\Client.g.resources
+C:\Users\julia\Documents\Visual Studio 2013\Projects\Klient\WpfApplication1\obj\Debug\Client.Properties.Resources.resources
+C:\Users\julia\Documents\Visual Studio 2013\Projects\Klient\WpfApplication1\obj\Debug\Client.csproj.GenerateResource.Cache
+C:\Users\julia\Documents\Visual Studio 2013\Projects\Klient\WpfApplication1\obj\Debug\Client.exe
+C:\Users\julia\Documents\Visual Studio 2013\Projects\Klient\WpfApplication1\obj\Debug\Client.pdb

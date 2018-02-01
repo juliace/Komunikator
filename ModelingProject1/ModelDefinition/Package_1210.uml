@@ -1,0 +1,1146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="fa0cf367-c435-4b8c-a4a9-9429ca7b6c8a"
+  name="ChatServer"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="df51be67-655e-41d9-bcfa-743c10f42a47"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DChatServer"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="22008e18-db51-4001-8099-170bcd95134d">
+      <profileInstance
+        Id="72a1c7db-515a-45a4-9fa3-fe31e1f52e41"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="30a34ec0-8f1f-4d8e-b398-a9262e596a42"
+        name="ChatService"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="ab23d1e3-d737-486a-bfcf-658a1e2afa0d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FChatServer%2Fbin%2FDebug%2FChatServer.exe&quot; Namespace%3DChatServer Type%3DChatService"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9989a31b-2860-4ff6-b22d-c0813d870ab2"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c8d284ef-4229-467b-a367-6631e00b5544">
+                <propertyInstance
+                  Id="dc2b80cc-e865-4c3e-8785-4b7256bd7696"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bc266fcf-7281-49a5-bd3a-cb8985e87c06">
+                <propertyInstance
+                  Id="2f1ead66-bc30-4168-94c9-ba66b29517af"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9394a1bf-0b51-4081-bd76-fcd6060de511">
+                <propertyInstance
+                  Id="fe61e143-3d21-4413-b696-26ae0d89ceff"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6a4ae721-e5fa-4684-8cba-de5257344780">
+                <propertyInstance
+                  Id="05ac8c7c-f1d4-4a57-9913-c07b4b538d28"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9e59b280-5a0c-419c-a9ef-af59b04db57d">
+                <propertyInstance
+                  Id="514e180a-afa3-4f50-b83f-80ce038d250a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="73f7290b-f6d2-4662-a3c1-4c6381e29271">
+            <interfaceMoniker
+              Id="303154e5-8981-4e7a-b1d2-374eb43071ac"
+              LastKnownName="IChatService"
+              LastKnownLocation="Package_1209.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="a6a88db1-108f-4022-81a7-05d96c80b667"
+            name="_connectedClients"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a9f3363d-740d-4236-ad07-306b4342f076"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FChatServer%2Fbin%2FDebug%2FChatServer.exe&quot; Namespace%3DChatServer Type%3DChatService Member%3D_connectedClients"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d7abb587-0460-48e1-a29c-c25008971e6a"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e02b4e5-f58d-4f12-b93e-ccf6ab5bbb48">
+                    <propertyInstance
+                      Id="f8ad3e5b-c2c3-4e58-9ea4-5b96d6dfc7a7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="25b2e930-0002-4631-9e0e-3db71cda7159">
+                    <propertyInstance
+                      Id="7e89c7e3-8545-4d3e-9c65-9aacc5c72f76"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f122ada-a542-448c-99e9-70eb400901a8">
+                    <propertyInstance
+                      Id="32aaf150-7417-439e-87ec-656de5ca4999"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8afcf999-07dd-4cca-996d-4e195ae71aa6">
+                    <propertyInstance
+                      Id="57ae4fcb-3c98-4e31-b5d0-f524018aed3f"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cbecbcb2-7d26-4220-907c-4842917934c5">
+                    <propertyInstance
+                      Id="c388fe20-642f-438c-bcd9-246ba66dcc84"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="63f988d8-7b50-4a9d-970a-28201cd73d59"
+                LastKnownName="ConcurrentDictionary&lt;String‎, ConnectedClient‎&gt;"
+                LastKnownLocation="Package3_1210.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="f25b4753-be92-4061-925f-7818f0da14d5"
+            name="tooManyClients"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="034c3783-da0e-4d06-a426-41c1c2a97b5b"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FChatServer%2Fbin%2FDebug%2FChatServer.exe&quot; Namespace%3DChatServer Type%3DChatService Member%3DtooManyClients"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="161b39a4-e93e-4254-9d9b-26b8c1910387"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b012ac3c-61af-4818-8867-ea7fe63c0e04">
+                    <propertyInstance
+                      Id="07beb0e9-24bd-4475-b891-2f589f5999a4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="855a7f84-f0f4-43fa-a3ca-ff02fde89133">
+                    <propertyInstance
+                      Id="a3b9e8e3-51a4-4a67-a734-b447c2b9ec5a"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="638570a8-2b97-4a59-b395-af3327c315bc">
+                    <propertyInstance
+                      Id="cf3be703-d7a3-4529-ac76-b2215a0a9612"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57341bb9-167a-46a2-b825-1393dd45b1e2">
+                    <propertyInstance
+                      Id="a6cbf86c-ea91-4af5-8468-993a36a7b43b"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="996b13ac-d168-454f-97dc-22865a27a272">
+                    <propertyInstance
+                      Id="4c6ad40e-7d9c-4b28-8c9b-765f1bff9357"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                LastKnownName="Boolean"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="b8cb2c67-2bca-4da0-8542-703ee723a874"
+            name="Login"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a12c8c03-d452-4c06-b7b5-13c6d26fd185"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FChatServer%2Fbin%2FDebug%2FChatServer.exe&quot; Namespace%3DChatServer Type%3DChatService Member%3D(Name%3DLogin OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="45a99b6c-160b-43f3-b8c8-258fbeec0273"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65d29014-bb89-41ea-93ec-39396033459b">
+                    <propertyInstance
+                      Id="b9c06deb-d32e-408c-9361-8b65b5bd67e6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5bf45149-4f5a-4d6f-a7ee-b0e0a1e17280">
+                    <propertyInstance
+                      Id="77532872-5c7f-4ce4-9545-db8730203339"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="010d9df7-4ad2-4b21-a03e-00b6695a5be1">
+                    <propertyInstance
+                      Id="08f803fc-53dc-4f65-b5c1-aac4d9de1cfd"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b47f4093-7ebf-4e3f-abf9-31160576e70d">
+                    <propertyInstance
+                      Id="308511e8-4d77-4e4b-ae99-205077efe801"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ac4065c-4361-4d7f-8ce4-1f6ab6c74677">
+                    <propertyInstance
+                      Id="4d6a6e85-86d2-41d1-9b1b-e691fa70bb39"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb023bc6-dbd6-4dc3-9cb6-b81f3358e722">
+                    <propertyInstance
+                      Id="12b3f0d8-8702-4ce6-a277-10f982043637"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0634ca71-62c7-4460-b0eb-0ab531cfbe4a"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="eec7e1de-9204-4088-b11b-95ab633d5b0c"
+                  name="userName"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f5dd7747-3394-40db-9616-fbaf1341c897"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FChatServer%2Fbin%2FDebug%2FChatServer.exe&quot; Namespace%3DChatServer Type%3DChatService Member%3D(Name%3DLogin OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DuserName"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9a82f7dc-4915-45ae-89f0-42bda2f22c0e"
+            name="SendMessageToAll"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="42804884-3699-40bb-ab24-78fec3d873e4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FChatServer%2Fbin%2FDebug%2FChatServer.exe&quot; Namespace%3DChatServer Type%3DChatService Member%3D(Name%3DSendMessageToAll OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c8090cc7-9cad-45fc-a047-2304278c8051"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78eb3de7-bf58-4310-bc37-c625afb1f3f4">
+                    <propertyInstance
+                      Id="fd19fbb6-aa24-4a0a-b3e6-91fa6fbb2c39"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f53208b-e93a-46e2-bad5-c867545a3b7a">
+                    <propertyInstance
+                      Id="3082606a-1a17-4c00-bd28-3654b34da801"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3f28d86-fd81-46fe-b175-7b80e18c17e8">
+                    <propertyInstance
+                      Id="7169c400-282f-4440-aaa8-595ae78a5109"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="83c6cbff-f17e-48ef-a461-9c394064e74e">
+                    <propertyInstance
+                      Id="3b428efa-7e74-42d1-a024-548e7214e7d2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2fd4a1a4-6712-4152-bb04-8283ec9c55c4">
+                    <propertyInstance
+                      Id="f77e5f02-9118-430b-873a-cf6d55aee1b5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="50bdb852-7938-4021-9796-5cdae8336635">
+                    <propertyInstance
+                      Id="7cdfc211-53e6-4cd1-93e9-eec04890f9ce"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bcffcb0e-182c-4022-b98e-c8db544db108"
+                  name="message"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1e5b8e7d-30a2-4c1f-a785-67d30950bbae"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FChatServer%2Fbin%2FDebug%2FChatServer.exe&quot; Namespace%3DChatServer Type%3DChatService Member%3D(Name%3DSendMessageToAll OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dmessage"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="70052d5e-f3d9-439f-abf2-567d7f8ca2bb"
+                  name="userName"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5228a7fd-6512-41d2-9a9d-445006755200"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FChatServer%2Fbin%2FDebug%2FChatServer.exe&quot; Namespace%3DChatServer Type%3DChatService Member%3D(Name%3DSendMessageToAll OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DuserName"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a2d9a6c9-1368-4617-8cde-1f3c37c3dcb3"
+            name="ChatService"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1b442769-5181-43ac-841f-005634a390a9"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FChatServer%2Fbin%2FDebug%2FChatServer.exe&quot; Namespace%3DChatServer Type%3DChatService Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="34e53dcb-5ea6-4cbe-9278-e59c44f0a4ce"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f45f856d-7d0b-448b-8749-6095d42129f3">
+                    <propertyInstance
+                      Id="1d88e89c-1316-4210-91ca-65c18aa28557"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="273ac41c-da86-47ca-b185-6fc6fea18442">
+                    <propertyInstance
+                      Id="ceff14df-435e-41f0-8a7d-fdd23d736970"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b95316bb-727b-4615-a6be-3e428a1c1aff">
+                    <propertyInstance
+                      Id="4e1c25f4-4fb7-4901-84a0-14ec07296774"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="82aa3cad-98df-4860-b81c-06a2f4bab58b">
+                    <propertyInstance
+                      Id="1aa42445-a18f-479e-80a5-30b9a10d25ab"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="53715115-fdff-4985-beb6-08608f03669a">
+                    <propertyInstance
+                      Id="ff101d43-66d5-41c9-b367-b8feed2f116c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb8984ce-0ce4-43d9-9fa2-ac19e38009d4">
+                    <propertyInstance
+                      Id="0fbdc33c-8483-427c-bb40-7c25f4688820"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e6ecafd8-9812-41b9-a439-31c8d57d073f"
+        name="ConnectedClient"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="885aa838-404e-4fb2-b823-1f5afce1d5ce"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FChatServer%2Fbin%2FDebug%2FChatServer.exe&quot; Namespace%3DChatServer Type%3DConnectedClient"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="424eb591-c79e-48f0-bf2b-ba1addc29d88"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d4eecef7-0eb9-4744-a7a5-d936c777091c">
+                <propertyInstance
+                  Id="22838f9a-2c71-42e6-90d5-4c83c04e838f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f4d73bae-8a9e-4931-b5be-3c3a8cea7f9c">
+                <propertyInstance
+                  Id="37c1dd54-3384-4b1b-8339-c8bb33361045"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c305e35d-7b00-4109-a983-6769fb1f35ed">
+                <propertyInstance
+                  Id="523e6ca5-5608-4681-81d9-9f2d21983356"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3d831a8a-934b-4674-8db1-c313c5de75da">
+                <propertyInstance
+                  Id="7e45b7f2-0369-47c2-a337-60a218119676"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9ff4d6c3-0dd3-44da-b0e8-b415d3ee2002">
+                <propertyInstance
+                  Id="2611d3a4-20a8-4336-9270-f1338a5f018d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="e312770e-0349-459a-89a5-920b6c2415fc"
+            isDerived="false"
+            sourceEndRoleName="ConnectedClient"
+            targetEndRoleName="IClient"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="130bb66a-b10d-4786-a6cf-d2565650951e"
+              LastKnownName="IClient"
+              LastKnownLocation="Package_1209.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="46c2548b-b474-43e5-8634-8b44ef9b9351"
+                  name="ConnectedClient"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="196e1533-ba04-443e-a8df-a542c1bba899"
+                  name="IClient"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="84b5b87b-22da-4d9a-a5bc-4c5ecb55c709"
+            name="UserName"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="662ff17b-ff7d-429f-b913-b24b1605ba55"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FChatServer%2Fbin%2FDebug%2FChatServer.exe&quot; Namespace%3DChatServer Type%3DConnectedClient Member%3DUserName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="575c79ee-d7ed-4066-8640-96b6494f3e3e"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c7037f48-d3d2-49a3-9497-7cdce08d09a1">
+                    <propertyInstance
+                      Id="2b93220b-428a-4f33-a88f-7a5abcc803b2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65ce9d03-fc3e-4015-9f42-43c14754da27">
+                    <propertyInstance
+                      Id="54f4c8ae-9e9b-4eb7-a0d3-2a084a9adc44"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc57713a-d01f-46e1-bb6e-9aeee34cb5b6">
+                    <propertyInstance
+                      Id="220e1f9c-ced5-4c32-bbb5-45d24eddd163"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ebb5ca0f-0fda-4d94-922e-58636e37e2c9">
+                    <propertyInstance
+                      Id="6a0d1812-b539-4b69-9f26-016540c9fc3f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc92a60c-ef20-4646-9821-8009411cbc3c">
+                    <propertyInstance
+                      Id="0d10f3c3-c924-418b-9a14-f2f065f63ae8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c441176b-1c51-4a71-8647-5e5420b32a24">
+                    <propertyInstance
+                      Id="b5f0ac71-759d-4e7d-b0fa-624687c5eba7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb3ffb27-ded8-4b51-884a-a00cce2057ab">
+                    <propertyInstance
+                      Id="ebb0b08f-b4c5-45df-ad44-37f4bbea69b7"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="77798cea-7a8c-417d-b632-d64a77e8ea05"
+            name="connection"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a69aaae6-0604-4304-92a4-134f6ddce802"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FChatServer%2Fbin%2FDebug%2FChatServer.exe&quot; Namespace%3DChatServer Type%3DConnectedClient Member%3Dconnection"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9a2df1c9-b386-4195-bb02-2ec967525454"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce53deab-8bdd-4eb6-9a5b-c1a4adf01aea">
+                    <propertyInstance
+                      Id="81df073a-b74e-4c73-b054-ac6ae38218c2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a4ac27b3-d79b-4979-9acb-19437dc8e33c">
+                    <propertyInstance
+                      Id="455c1867-2ae8-48f4-b88f-3cd294bc905c"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e805ea7-1aa2-4c75-93be-a0c2eabe3d55">
+                    <propertyInstance
+                      Id="a6ea8c88-0c2e-4f9b-ac2b-4527e01933d5"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c7daef0a-37fb-4f21-a596-1d0571fd7a94">
+                    <propertyInstance
+                      Id="af4eccae-af2c-4a49-b083-5f4f358a703d"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9dee2ad4-7d83-4211-b557-62cdb5ffe6fd">
+                    <propertyInstance
+                      Id="428d2310-18b8-474b-b98e-23349dd18008"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="130bb66a-b10d-4786-a6cf-d2565650951e"
+                LastKnownName="IClient"
+                LastKnownLocation="Package_1209.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="eff5084f-ae0c-4a13-bab7-93ddfab32b41"
+            name="ConnectedClient"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6933a3c6-a046-4a57-8d71-f67224b3f14c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FChatServer%2Fbin%2FDebug%2FChatServer.exe&quot; Namespace%3DChatServer Type%3DConnectedClient Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e5ca1bf6-ae4f-495a-ab6e-c6ea51555af0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99fe852b-ede5-4fb4-80d7-3cc321ecd3e4">
+                    <propertyInstance
+                      Id="5cd3fd3a-0c6e-4fef-9510-5ddc6b692c47"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0257ca28-c46c-46de-93bd-a204b816cd98">
+                    <propertyInstance
+                      Id="6247dc6d-fc37-49f3-8a96-ddf284fb2144"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="483045de-1386-4f0a-ae2b-b2eb3d695186">
+                    <propertyInstance
+                      Id="38215a2c-90f2-46b5-84ef-4370597e97e7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b5e2c3e-60a1-4d46-8411-8d4e93482c81">
+                    <propertyInstance
+                      Id="5c923b23-d0f7-42c3-8071-744a1448e191"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="751df751-39e5-4254-87ef-513cbad06ac9">
+                    <propertyInstance
+                      Id="c8383737-cf06-408f-97aa-c0645e24a177"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="154553d5-bfea-4c6f-860b-182427a320c2">
+                    <propertyInstance
+                      Id="7e322065-5e6b-4c2c-88c7-4375e24952df"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c8afe2bc-444f-4430-b340-2a51889b9cdc"
+        name="Program"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="0fd5023f-ea18-45da-b3f1-7b3c835801b2"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FChatServer%2Fbin%2FDebug%2FChatServer.exe&quot; Namespace%3DChatServer Type%3DProgram"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="bf2e3b32-8d98-4e1c-a902-fbfb55f944cd"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="12b676e3-738d-4d64-bd40-12b50f4976b3">
+                <propertyInstance
+                  Id="cd395645-b245-496d-8a4e-94caea4cc71f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a8a898be-2e1f-4025-94a6-ed6284933b27">
+                <propertyInstance
+                  Id="54eb26d1-f260-41e1-965a-91f60a3989ac"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="781fa66e-01c0-44c4-8d27-6ee72de7380a">
+                <propertyInstance
+                  Id="1d9264c3-e45d-486e-809b-7259199e8ed2"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d0b7d474-2f99-423d-8d38-860d33d40f85">
+                <propertyInstance
+                  Id="ad134599-1a11-410c-a5c1-9ecbbe305358"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="77d64ee3-94ec-43df-8966-e3a81f3f80e9">
+                <propertyInstance
+                  Id="40b96e78-05c2-4c30-a333-623aefa72cb3"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="8c130f32-7556-4547-a7d9-90a398155111"
+            isDerived="false"
+            sourceEndRoleName="Program"
+            targetEndRoleName="ChatService"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="30a34ec0-8f1f-4d8e-b398-a9262e596a42"
+              LastKnownName="ChatService"
+              LastKnownLocation="Package_1210.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9e793e3f-1187-4b33-8c8f-0aa7e5c508e3"
+                  name="Program"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Composite"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e2c45b59-3b2e-4b33-9feb-08a6e92f45fd"
+                  name="ChatService"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="true" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="1fe99e90-290c-4098-9d86-ec017c37f0fb"
+            name="server"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="bb1b1429-40c0-4664-a287-3a53ee8bfea0"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FChatServer%2Fbin%2FDebug%2FChatServer.exe&quot; Namespace%3DChatServer Type%3DProgram Member%3Dserver"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2a997b8b-5866-45cc-9f3f-1c8e5a032ce5"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a9871ed6-6283-40e6-ab69-8a1807dfa72c">
+                    <propertyInstance
+                      Id="69aa0218-019b-436c-9ae1-8cf15f155ac7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab201c90-ffb2-48d1-b85d-fcb423cc7de4">
+                    <propertyInstance
+                      Id="6492cf69-d050-4023-87ca-28fa1aa08335"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="68fdb842-bff1-4980-8fc9-0217dad722bf">
+                    <propertyInstance
+                      Id="68a7d6ac-dbb8-4323-b907-b46021acfeef"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6ab1ece-5f19-4186-ba63-a3329ff21cc5">
+                    <propertyInstance
+                      Id="e795956c-c051-4d67-931d-86188725a4cc"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e118ad6d-8a25-407b-8435-91c0c172682e">
+                    <propertyInstance
+                      Id="780454b0-f154-4211-9fcb-33f48c969afb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="30a34ec0-8f1f-4d8e-b398-a9262e596a42"
+                LastKnownName="ChatService"
+                LastKnownLocation="Package_1210.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="c6771015-bb12-4d04-9864-d188a20d52fa"
+            name="Main"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6a09b4da-18ed-4eeb-998c-02fd9cd22c5c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FChatServer%2Fbin%2FDebug%2FChatServer.exe&quot; Namespace%3DChatServer Type%3DProgram Member%3D(Name%3DMain OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="203ff2a2-edd9-46bd-b0f8-e7d15e56a17d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea5045dc-39dd-49cd-869e-7f97da453fa6">
+                    <propertyInstance
+                      Id="6bfc9ac5-a1fc-4b8b-adbf-2cce60864e05"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ec20235-a645-405c-9470-36157baef787">
+                    <propertyInstance
+                      Id="be28a5b4-7f7b-4487-b4ba-9e281c6754e8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b18fb7a4-4c78-45e1-b332-86c0d69176b0">
+                    <propertyInstance
+                      Id="b365ec00-141c-4781-bbc4-2d8d4156178e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb1cbfc5-28dc-4c7a-b640-09af1e600440">
+                    <propertyInstance
+                      Id="e1d8cb03-677f-43e1-a9fb-256eb0a982f1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eae00206-b337-41c4-88d9-5ef95f7ead98">
+                    <propertyInstance
+                      Id="e09e9685-f358-4846-b7bf-87774deca89f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b3b46c06-6b4a-4f61-bfce-90e2077b8b9c">
+                    <propertyInstance
+                      Id="2abc71c6-4597-4b27-b18f-751629db3501"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6d7530e8-2be2-4ce2-9750-27094a404db4"
+                  name="args"
+                  direction="In"
+                  isOrdered="true">
+                  <referencesInternal>
+                    <reference
+                      Id="b7357e42-0e0e-483e-bdcf-6a31414034ca"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FChatServer%2Fbin%2FDebug%2FChatServer.exe&quot; Namespace%3DChatServer Type%3DProgram Member%3D(Name%3DMain OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))]) ParameterIdentifier%3Dargs"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <lowerValueInternal>
+                    <literalString
+                      Id="b7fb8244-00ec-4a32-b762-cf3efd7fe6ec"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="ff009821-5c3d-40ea-91fc-6aad53dfc651"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f2eabe5a-c062-4b2a-aac1-8020c48fe6fe"
+            name="Program"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a1ba5fc2-bfcc-4b8f-b3ef-2a51108cc581"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fjulia%2FDocuments%2FVisual Studio 2013%2FProjects%2FKlient%2FChatServer%2Fbin%2FDebug%2FChatServer.exe&quot; Namespace%3DChatServer Type%3DProgram Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="023389a4-7bc6-4bb3-b347-f8d5638a9aae"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2463cc2-43d6-4904-900f-9b333036ad23">
+                    <propertyInstance
+                      Id="50ad8bdd-c753-4847-8c6e-cb69789348b7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fcacb492-bdb7-4310-a6c4-499c1877e03f">
+                    <propertyInstance
+                      Id="4ea0eb43-3ddf-40c7-873b-b95bdda8b28b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="628e6dea-5ddc-41b9-93d2-9ae451baba43">
+                    <propertyInstance
+                      Id="d50ccbfe-5f0d-4dd7-9bfb-b22bca4ea08c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7b995e3a-c5ba-40db-8b86-c2a56f12ea8a">
+                    <propertyInstance
+                      Id="6893a70f-97d2-4494-91d0-b142ca01199e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="31ce55fc-5e64-4244-bc14-07057d14d93b">
+                    <propertyInstance
+                      Id="cc0614ae-7d5d-4eb3-bf74-aeaaa6bc937a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d474b380-aea8-45cb-b962-9848ec6a3717">
+                    <propertyInstance
+                      Id="8591f96e-8a11-46f2-b663-b45bc25b0fd3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

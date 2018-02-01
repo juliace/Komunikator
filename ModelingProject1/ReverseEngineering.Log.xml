@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2018-02-01T12:49:25" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: '997b1885-1380-46e5-b655-efb72c4a4817' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Boolean' -  (PrimitiveType)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Integer' -  (PrimitiveType)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChatInterface' -  (Package)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ChatInterface::IChatService' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System' -  (Package)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Object' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::ServiceModel' -  (Package)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::ServiceModel::DuplexChannelFactory' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::ServiceModel::DuplexChannelFactory&lt;IChatService‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Windows' -  (Package)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Windows::Controls' -  (Package)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Windows::Controls::Button' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Windows::Controls::TextBox' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Windows::Controls::TextChangedEventArgs' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Windows::Markup' -  (Package)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Windows::Markup::IComponentConnector' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Windows::RoutedEventArgs' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Windows::Window' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::WpfApplication1' -  (Package)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::WpfApplication1::MainWindow' -  (Class)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::WpfApplication1::MainWindow::_channelFactory' -  (Property)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::WpfApplication1::MainWindow::_contentLoaded' -  (Property)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::WpfApplication1::MainWindow::Button_Click' -  (Operation)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::WpfApplication1::MainWindow::Button_Click::e' -  (Parameter)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::WpfApplication1::MainWindow::Button_Click::sender' -  (Parameter)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::WpfApplication1::MainWindow::Button_Click_1' -  (Operation)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::WpfApplication1::MainWindow::Button_Click_1::e' -  (Parameter)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::WpfApplication1::MainWindow::Button_Click_1::sender' -  (Parameter)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::WpfApplication1::MainWindow::connectButton' -  (Property)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::WpfApplication1::MainWindow::displayTextBox' -  (Property)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::WpfApplication1::MainWindow::InitializeComponent' -  (Operation)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::WpfApplication1::MainWindow::MainWindow' -  (Operation)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::WpfApplication1::MainWindow::MessageTextBox' -  (Property)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::WpfApplication1::MainWindow::sendButton' -  (Property)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::WpfApplication1::MainWindow::server' -  (Property)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::WpfApplication1::MainWindow::System‎.Windows‎.Markup‎.IComponentConnector‎.Connect' -  (Operation)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::WpfApplication1::MainWindow::System‎.Windows‎.Markup‎.IComponentConnector‎.Connect::connectionId' -  (Parameter)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::WpfApplication1::MainWindow::System‎.Windows‎.Markup‎.IComponentConnector‎.Connect::target' -  (Parameter)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::WpfApplication1::MainWindow::TakeMessage' -  (Operation)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::WpfApplication1::MainWindow::TakeMessage::message' -  (Parameter)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::WpfApplication1::MainWindow::TakeMessage::userName' -  (Parameter)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::WpfApplication1::MainWindow::TextBox_TextChanged' -  (Operation)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::WpfApplication1::MainWindow::TextBox_TextChanged::e' -  (Parameter)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::WpfApplication1::MainWindow::TextBox_TextChanged::sender' -  (Parameter)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::WpfApplication1::MainWindow::userNameTextBox' -  (Property)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::WpfApplication1::MainWindow to ModelingProject1::System::Windows::Markup::IComponentConnector (InterfaceRealization)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::WpfApplication1::MainWindow to ModelingProject1::System::Windows::Window (Generalization)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::System::Windows::Controls::TextChangedEventArgs to ModelingProject1::System::Windows::RoutedEventArgs (Generalization)" />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="High" Text="(1) type(s) fully reverse engineered." />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="High" Text="(10) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2018-02-01T12:49:27" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>
